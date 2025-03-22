@@ -1,0 +1,141 @@
+
+
+@media (max-width: 575.8px) {  
+    header{
+        padding: 0;
+    }
+    .menu ul li a {    
+        font-size: 18px;   
+        padding: 10px 0 0 !important;
+        text-align: right; 
+    }
+    .slider {
+       
+        padding-top: 0;
+        padding-bottom: 60px;
+    }
+    .s-text h1 {
+        
+        font-size: 22px;
+        font-weight: 600;
+    
+    }
+    .s-text h2 {
+        margin: 10px 0;
+   
+    }
+    .s-icon ul li {
+       
+        margin-right: 0;
+    }
+    .s-icon ul li i {
+        font-size: 26px;
+        
+    }
+    .s-text p {
+        margin-bottom: 22px;
+       
+    }
+    .c_ind {
+        bottom: -56px;
+    }
+    .c_title {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .c_title .h1{
+        padding-bottom: 12px;
+        font-size: 26px;
+        font-weight: 600;
+        color: #010101;
+      
+      }
+      .c_title .p{
+     
+        font-size: 17px;
+        font-weight: 500;
+        color: #313841;
+        line-height: 22px;
+      
+      }
+      .f-text{
+        text-align: center;
+    }
+  
+    
+    .c-icon ul li {
+        margin-right: 30px !important;
+        margin-top: 30px !important;
+
+    }
+    address{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .foot-2{
+        margin-top: 30px;
+        text-align: center;
+
+    }
+
+
+
+    
+}
+    
+
+
+@media (min-width: 576px) and (max-width: 767.8px) {   
+    
+    .c_title {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+    .menu ul li a {       
+        font-size: 18px;
+        padding: 10px 0 0 !important;
+        text-align: right; 
+    }
+    .c_title .h1{
+        padding-bottom: 12px;
+        font-size: 26px;
+        font-weight: 600;
+        color: #010101;
+      
+      }
+    .f-text{
+        text-align: center;
+    }
+    address{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width:991.8px) { 
+    .c_title {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+    .menu ul li a {       
+        padding: 10px 0 0 !important;
+        text-align: right; 
+    }
+    .f-item{
+        margin-bottom: 60px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width:1199px){
+
+}
+
+@media (min-width: 1200px) {
+    
+}
+@media (min-width: 1400px) { 
+   
+}

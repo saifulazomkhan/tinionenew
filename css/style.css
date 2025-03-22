@@ -1,0 +1,280 @@
+
+
+/* font-family */
+
+@font-face {
+  font-family: helvetica-bold;
+  src: url(--/fonts/helvetica-bold.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.helvetica-bold {
+  font-family: helvetica-bold;
+  font-weight: 700;
+  font-style: normal;  
+}
+
+/* font-family end*/
+/* common css start */
+
+:root{
+  --black: #010101;
+  --yellow: #fcdb00;
+  --bg: #ffffff;
+  --black: #010101;
+  --gray: #313841;
+  --p: #555555;
+  --place-holder: #898989;
+
+}
+
+body{
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  color:#808080;
+  box-sizing: border-box;
+ 
+
+}
+/* common css end */
+
+/* header start */
+
+header{
+  background-color: #fcdb00;
+  padding: 20px 0;
+}
+.c_nav{
+
+}
+.logo{
+
+}
+.menu{}
+.nav_bar{}
+.menu ul li{
+
+}
+
+.menu ul li a {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color:  #010101 !important;
+  padding: 0 50px !important;
+}
+
+.menu ul li:last-child a{
+  padding-right: 0 ip !important;
+}
+
+.menu ul li a:hover{
+  color: #ffffff !important;
+}
+
+/* header end  */
+/* slider start  */
+.slider{
+ 
+  background-color: var(--yellow);
+  padding-top: 30px;
+  padding-bottom: 100px;
+ 
+
+}
+.c_ind{
+  bottom: -80px;
+}
+.c_ind [data-bs-target]{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+
+}
+
+.s-text{
+  padding: 0 10px;
+  margin-top: 58px;
+ 
+}
+.s-text h1{
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: #010101;
+
+}
+.s-text h2{
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 400;  
+  color: var(--gray);
+}
+
+.s-text p{
+  margin-bottom: 45px;
+  color: var(--p);
+}
+.s-icon{}
+
+.s-icon ul li {
+  margin-right: 20px !important;
+  padding-right: 10px;
+}
+.s-icon ul li i{
+  
+  font-size: 42px;
+  color: var(--black);
+  transition: .3s;
+}
+
+.s-icon ul li i:hover {
+  transform: scale(1.2); 
+  
+}
+
+.s-img{}
+
+.s-img img{}
+
+
+/* feature sec start  */
+
+.feature{}
+
+.c_title{
+  padding: 80px 0;
+}
+
+.c_title .h1{
+  padding-bottom: 15px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #010101;
+
+}
+.c_title .p{  
+  
+  font-size: 20px;  
+  line-height: 24px;
+  color: #313841;
+
+}
+
+/* feature 2nd row for feature items strt  */
+.f-item{
+  margin-bottom: 80px;
+}
+.f-icon{}
+.f-icon i{
+  margin-top: 5px;
+  font-size: 50px;
+  color: #010101;
+}
+.f-text{}
+.f-text h3{
+  font-size: 18px;
+  font-weight: 600;
+  color:#010101;
+  
+}
+.f-text p{
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color:#898989;
+
+}
+
+/* contact  */
+.contact{
+  background-color: #010101;
+}
+
+.c-text h3{
+  color: #fcdb00;
+}
+
+.c-text p{
+  color:#898989;
+  letter-spacing: .9px;
+}
+
+.c_text{
+  padding: 80px 0 40px ;
+}
+
+.c-form{
+  margin:20px 0 30px;
+}
+
+.c-input{
+  height: 50px;
+ 
+}
+
+.c-input::placeholder{
+  color:#808080;
+}
+
+.c-submit{
+  width: 100%;
+  height: 50px;
+  text-transform: uppercase;
+  background-color: #fcdb00;
+}
+
+.c-icon ul li {
+  margin-right: 30px !important;
+  margin-top: 70px !important;
+  font-size: 42px;
+  color: #fcdb00;
+  transition: .3s; 
+
+}
+
+.c-icon ul li:last-child {
+  margin-right: 0 !important;
+
+}
+
+.c-icon ul li a{
+  color: #fcdb00;
+}
+
+
+/* footer  */
+footer {
+  padding-top: 80px;
+  padding-bottom: 120px;
+  background-color:  #010101; 
+  color: white;
+  
+}
+address{
+  padding: 0;
+  margin: 0;
+}
+.foot-2{}
+
+.foot-2 a{
+  color: #fff;
+  text-decoration: none;
+}
+
